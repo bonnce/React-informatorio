@@ -24,6 +24,13 @@
   color: white;
 }
 
+.App-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +43,41 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border:1px solid black;
+  width:30ch;
+  padding:2rem;
+  gap:1rem;
+  border-radius: 25px 25px;
+  box-shadow: 1px 1px 5px 3px #0008;
+}
+
+.card-header{
+  font-size: 2.5rem;
+  text-align: center;
+  width: 100%;
+  color:black;
+  text-transform: uppercase;
+}
+.card-header h2{
+  margin:0;
+  padding:0;
+}
+
+.card-body{
+  font-size: 1.25rem;
+  text-align: justify;
+  width: 100%;
+  color:#282c34;
+}
+
+.card-body p{
+  margin:0;
+  padding:0;
+}
+
